@@ -1,0 +1,13 @@
+body {
+  background-image: url(glitter\ 1.jpg);
+  line-height: 1.5;
+}
+p,
+h2 {
+  background-color: white;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: orange;
+}

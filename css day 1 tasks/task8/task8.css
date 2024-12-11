@@ -1,0 +1,22 @@
+* {
+  line-height: 1.4;
+}
+p {
+  background-image: linear-gradient(
+    to right,
+    rgba(136, 9, 30, 0.703) 0%,
+    rgba(136, 9, 30, 0.699) 50%,
+    rgba(255, 60, 0, 0.753) 50%,
+    rgba(255, 60, 0, 0.607) 100%
+  );
+  text-shadow: 10;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: orange;
+}
+strong {
+  color: green;
+  text-decoration: underline;
+}

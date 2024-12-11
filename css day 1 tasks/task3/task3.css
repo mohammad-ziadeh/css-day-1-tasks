@@ -1,0 +1,10 @@
+.basic {
+  text-align: end;
+}
+.design {
+  text-decoration: overline;
+  text-align: center;
+}
+.importance {
+  text-decoration: line-through;
+}

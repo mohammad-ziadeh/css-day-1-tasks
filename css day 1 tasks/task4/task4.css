@@ -1,0 +1,32 @@
+.welcome {
+  background-color: rgb(58, 54, 70);
+  background-position: 100%;
+  text-align: center;
+  color: rgb(234, 234, 234);
+  font-family: sans-serif;
+}
+.welcome .explore {
+  text-transform: uppercase;
+}
+h2 {
+  text-decoration: underline;
+  color: red;
+}
+.two {
+  font-family: sans-serif;
+}
+.one {
+  background-color: rgb(234, 234, 234);
+}
+.contact {
+  color: red;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+footer {
+  text-align: center;
+  background-color: rgb(58, 54, 70);
+}
+.three {
+  color: rgb(234, 234, 234);
+}
