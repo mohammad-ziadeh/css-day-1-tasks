@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="mohammad" />
+    <meta name="description" content="register" />
+
+    <title>register form</title>
+
+    <link rel="stylesheet" href="task12.css" />
+  </head>
+  <body>
+    <table border="2">
+      <thead>
+        <tr>
+          <th colspan="2">Registration Form</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Enter Name</td>
+          <td>
+            <input type="text" name="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>Enter Password</td>
+          <td>
+            <input type="password" name="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>
+            <textarea name="address" rows="4" cols="30"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Select Game</td>
+          <td>
+            <input type="checkbox" />
+            <label for="game">Hockey</label>
+            <br />
+            <input type="checkbox" />
+            <label for="game">Football</label>
+            <br />
+            <input type="checkbox" />
+            <label for="game">Badminton</label>
+            <br />
+            <input type="checkbox" />
+            <label for="game">Cricket</label>
+            <br />
+            <input type="checkbox" />
+            <label for="game">Volleyball</label>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" value="male" checked />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Select your age</td>
+          <td>
+            <select name="age" id="age">
+              <option value="select">Select</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="button">Click me</button>
+
+            <button type="reset">Reset</button>
+
+            <button type="submit">Submit Form</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
