@@ -1,0 +1,4 @@
+html {
+  background: url(backgroundcss1.jpg) repeat-y, url(glitter\ 1.jpg) repeat-x;
+  background-size: 30% auto, auto 30%;
+}
